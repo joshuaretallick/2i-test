@@ -6,6 +6,7 @@ total = 0
 }.each do |k, v|
   i = 0
   while total < v
+    break if total + k > v
     puts "Total: #{total}"
     total += k
     i += 1
