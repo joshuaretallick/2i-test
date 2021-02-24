@@ -7,8 +7,8 @@ total = 0
   i = 0
   while total < v
     break if total + k > v
-    puts "Total: #{total}"
     total += k
     i += 1
+    puts "Total: #{total}"
   end
 end
